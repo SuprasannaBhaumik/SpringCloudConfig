@@ -12,7 +12,12 @@ spring:
           uri: https://github.com/SuprasannaBhaumik/cloudConfigGit
           search-paths:
           - 'station*'
-            
+        encrypt:
+          enabled: false
+  
+
 server:
   port: 8888
+
+
   

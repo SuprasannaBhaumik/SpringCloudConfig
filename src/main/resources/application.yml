@@ -1,0 +1,18 @@
+---
+spring:
+  application:
+    name: s1rates
+  profiles:
+    active:
+    - dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SuprasannaBhaumik/cloudConfigGit
+          search-paths:
+          - 'station*'
+            
+server:
+  port: 8888
+  
